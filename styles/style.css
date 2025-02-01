@@ -11,3 +11,86 @@ background-color: #ebefe3;
 .secendary-color{
     color: #FFC107;
 }
+.anime-1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebefe3;
+    animation: mybox 4s infinite alternate 5s ;
+    transition: all 3s;
+
+}
+@keyframes mybox{
+    0%{
+        background-color: rgb(71, 71, 236);
+        transform: rotateX(-0deg);
+        top: 70%;
+        left: 10%;
+    }
+    25%{
+        background-color: black;
+        transform: rotate(360deg);
+       
+    }
+    75%{
+        background-color: aquamarine;
+        color: black;
+       
+    }
+    100%{
+        background-color: red;
+        color: black;
+      
+    }
+}
+.anime-2{
+    width: 200px;
+    height: 150px;
+    padding: 3rem;
+    background-color: rgb(181, 224, 53);
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    border-radius: 10%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0c0c0c;
+    font-weight: bold;
+    animation: mycard 4s infinite alternate 5s ;
+    transition: all 3s;
+
+}
+@keyframes mycard{
+    0%{
+        background-color: rgb(22, 218, 211);
+        color: rgb(23, 23, 246);
+        top: 70%;
+        right: 3%;
+    }
+    25%{
+        background-color: rgb(21, 172, 241);
+        color: rgb(9, 10, 10);
+      
+    }
+    75%{
+        background-color: rgb(229, 233, 22);
+        color: rgb(43, 185, 217);
+        transform: rotate(360deg);
+    }
+    100%{
+        background-color: rgb(91, 16, 231);
+        color: rgb(228, 35, 35);
+     
+       
+    }
+}
